@@ -94,7 +94,9 @@ namespace Xian
         // 新增的函數，處理跳躍功能
         public void Jump()
         {
-            rbody.velocity = new Vector2(0, jump);
+            if(!isJumping)
+                rbody.velocity = new Vector2(0, jump);
+
             isJumping = true;
             ani.SetBool("isJump", true);
 
