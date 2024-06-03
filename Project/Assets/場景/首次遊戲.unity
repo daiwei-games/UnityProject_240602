@@ -3039,6 +3039,8 @@ MonoBehaviour:
   inputP: {fileID: 300040409}
   AudioSource: {fileID: 810603775}
   AudioObjectList: {fileID: 11400000, guid: 5979f285b8007e64b87c40098130bbf5, type: 2}
+  SubmitButton: {fileID: 1953717649}
+  SubmitButText: {fileID: 0}
 --- !u!4 &1510688674
 Transform:
   m_ObjectHideFlags: 0
